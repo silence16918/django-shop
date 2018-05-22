@@ -1,0 +1,35 @@
+{% extends 'home/base.html' %}
+{% load static from staticfiles %}
+
+
+{% block linkscript %}
+    <link rel="stylesheet" type="text/css" href="{% static 'mine/css/login.css' %}"/>
+    <script type="text/javascript" charset="utf-8" src="{% static 'mine/js/login.js' %}"></script>
+{% endblock linkscript %}
+
+
+{% block base %}
+    <div id="login">
+        <a href="/mine/"><p>&lt;返回</p></a>
+        <div id="box">
+            <form class="form-horizontal">
+                <div class="input-group">
+                    <span class="input-group-addon">账号</span>
+                    <input id="ui" type="text" class="form-control" aria-describedby="basic-addon1" name="userAccount">
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon">密码</span>
+                    <input id="pi" type="password" class="form-control" aria-describedby="basic-addon1" name="userPasswd">
+                </div>
+                <button type="button" id="loginBtn">登录</button>
+            </form>
+            <p id="errorp">账号密码错误</p>
+        </div>
+    </div>
+
+{% endblock base %}
+
+
+
+
+
