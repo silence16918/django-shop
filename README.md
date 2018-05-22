@@ -7,16 +7,25 @@
 <br/>
 
 ### 1、简介:移动端在线商城项目 django+python3.6+mysql+pycharm
+<br/>
+
 ### 2、主要实现功能：
+
 #### 1,用户注册登录,会员中心
 <img src="image/user.png"/>
 <br/>
+
 #### 2,商品分类展示,筛选,排序
 <img src="image/index.png"/>
 <br/>
+
 #### 3,商品购物车,下订单
 <img src="image/cart.png"/>
 <br/>
+<br/>
+<br/>
+
+
 ### 2、项目目录结构：
 
     +--manage.py
